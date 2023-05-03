@@ -4,14 +4,14 @@ import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 //b810f1c
 const API_URL = "http://www.omdbapi.com?apikey=b810f1c";
-const movie1 = {
-  Title: "Superman/Batman: Apocalypse",
-  Year: "2010",
-  imdbID: "tt1673430",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMjk3ODhmNjgtZjllOC00ZWZjLTkwYzQtNzc1Y2ZhMjY2ODE0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-};
+// const movie1 = {
+//   Title: "Superman/Batman: Apocalypse",
+//   Year: "2010",
+//   imdbID: "tt1673430",
+//   Type: "movie",
+//   Poster:
+//     "https://m.media-amazon.com/images/M/MV5BMjk3ODhmNjgtZjllOC00ZWZjLTkwYzQtNzc1Y2ZhMjY2ODE0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+// };
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
